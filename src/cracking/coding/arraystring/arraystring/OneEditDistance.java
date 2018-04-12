@@ -1,11 +1,10 @@
-package strings;
+package cracking.coding.arraystring.arraystring;
 
 public class OneEditDistance {
 	public static void main(String[] args) {
 
-		System.out.println(isOneEditDistance("sandy","andy"));
-		System.out.println(isOneEditDistance("egg","add"));
-		System.out.println(isOneEditDistance("sandy","ancdy"));
+		System.out.println(isOneEditDistance("a","ab"));
+
 	}
 
 	/*
@@ -21,20 +20,21 @@ public class OneEditDistance {
 	 */
 	public static boolean isOneEditDistance(String s , String t){
 
-		if(s == null || s.length() ==0 || t == null || t.length() == 0){
+		if((s == null || s.length() ==0) && (t == null || t.length() == 0)){
 			return false;
 		}
 
 		int sLen = s.length();
 		int tLen = t.length();
 
-		if(Math.abs(sLen - tLen) > 1){
+		int diff = Math.abs(sLen - tLen);
+		if(diff > 1){
 			return false;
 		}
 
 		int i = 0;
 		int j = 0;
-		int count = 0;
+		boolean once = false;
 
 		while(i < sLen && j < tLen){
 
@@ -42,7 +42,12 @@ public class OneEditDistance {
 				i++;
 				j++;
 			} else {
-				count++;
+				if(once){
+					return false;
+				} else {
+					once = true;
+				}
+				
 				if (sLen > tLen) {
 					i++;
 				} else if (tLen > sLen) {
@@ -54,10 +59,10 @@ public class OneEditDistance {
 			}
 		}
 
-		if(i <sLen || j < tLen  && count > 0){
+		if((i <sLen || j < tLen)  && !once){
 			return false;
 		}
 
-		return count <= 1 ;
+		return once || (!once && diff > 1) ;
 	}
 }

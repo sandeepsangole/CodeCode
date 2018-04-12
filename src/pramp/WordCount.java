@@ -27,7 +27,8 @@ import java.util.Map.Entry;
 public class WordCount {
 
 	public static void main(String[] args) {
-		String document ="\"Every book is a quotation; and every house is a quotation out of all forests, and mines, and stone quarries; and every man is a quotation from all his ancestors. \"";
+		String document ="Every book is a quotation; and every house is a quotation out of all" +
+				" forests, and mines, and stone quarries; and every man is a quotation from all his ancestors. ";
 		String[][] res = wordCountEngine(document);
 		for(String[] s : res ){
 			System.out.println(Arrays.toString(s));

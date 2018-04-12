@@ -32,7 +32,7 @@ public class BTPaths {
 
 		sum = sum * 10 + root.data;
 
-		if(root.left == null || root.right == null){
+		if(root.left == null && root.right == null){
 			return sum ;
 		}
 

@@ -33,7 +33,7 @@ public class BuySellStockI {
 		int oneStock = Integer.MIN_VALUE;
 
 		for(int i =0;i<arr.length;i++){
-
+			System.out.println(noStock +" : "+oneStock +" : "+arr[i]);
 			noStock = Math.max(noStock, oneStock + arr[i]);
 			oneStock = Math.max(oneStock , -arr[i]);
 		}

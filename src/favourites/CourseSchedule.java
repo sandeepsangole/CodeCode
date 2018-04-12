@@ -42,7 +42,7 @@ public class CourseSchedule {
 		System.out.printf(" Can Finish Course " +obj.canFinish(6,pre));
 
 	}
-
+	
 	/*
 		build counter for dependancy
 		Find the courses which has no dependancy add it to queue

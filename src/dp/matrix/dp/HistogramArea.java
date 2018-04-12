@@ -16,6 +16,7 @@ public class HistogramArea {
 		System.out.println(maxHistogram(new int[] { 2, 1, 5, 6, 2, 3 }));
 	}
 
+
 	public static int maxHistogram(int[] heights) {
 		//1. insert into stack if stack is empty or peek is smaller than height
 		//2. If peek is grater than height then remove an calculate area

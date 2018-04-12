@@ -43,6 +43,7 @@ public class PalindromeSubstring {
 		int maxLen     = 1;
 		int startIndex = 0;
 
+		//Len == 1 - set all diagonal to true
 		for (int i = 0; i < str.length(); i++) {
 			cache[ i ][ i ] = true;
 		}

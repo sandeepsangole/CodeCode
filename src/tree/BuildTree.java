@@ -2,6 +2,15 @@ package tree;
 
 public class BuildTree {
 
+	/*
+		50 (parent)
+	   /   \
+	 25     75
+	/  \    / \
+   10  30  60  80
+   	 \	
+	  15 (leaf)	
+	 */
 
 	public static Node buildBinarySearchTree(){
 
@@ -33,7 +42,7 @@ public class BuildTree {
 
 		/*
 
-	    	 1
+	      1
 	     /  \
 	    2     3
 	  /   \   / \
@@ -43,6 +52,18 @@ public class BuildTree {
  */
 
 	}
+	
+	class TreeNode {
+		int data;
+		TreeNode left;
+		TreeNode right;
+		TreeNode(int data){
+			this.data = data;
+		}
+		
+	}
+	
+	
 
 	public static Node buildBinaryTree(){
 
@@ -74,7 +95,7 @@ public class BuildTree {
 
 		/*
 
-	    	 1
+	      1
 	     /  \
 	    2     3
 	  /   \   / \

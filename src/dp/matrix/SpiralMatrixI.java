@@ -24,9 +24,7 @@ public class SpiralMatrixI {
 	public static void main(String[] args) {
 		int[][] mat = {
 
-				{ 1, 2, 3 },
-				{ 4, 5, 6 },
-				{ 7, 8, 9 }
+				{2,3}
 		};
 
 		SpiralMatrixI obj = new SpiralMatrixI();
@@ -63,13 +61,15 @@ public class SpiralMatrixI {
 				dir = Direction.DOWN;
 			}
 
-			if (dir == Direction.DOWN) {
+			if(leftCol <= rightCol) {
+				if (dir == Direction.DOWN) {
 
-				for (int i = topRow; i <= bottomRow; i++) {
-					res.add(matrix[ i ][ rightCol ]);
+					for (int i = topRow; i <= bottomRow; i++) {
+						res.add(matrix[ i ][ rightCol ]);
+					}
+					dir = Direction.LEFT;
+					rightCol--;
 				}
-				dir = Direction.LEFT;
-				rightCol--;
 			}
 
 			if (dir == Direction.LEFT) {
@@ -81,15 +81,16 @@ public class SpiralMatrixI {
 
 			}
 
-			if (dir == Direction.UP) {
+			if(leftCol <= rightCol) {
+				if (dir == Direction.UP) {
 
-				for (int i = bottomRow; i >= topRow; i--) {
-					res.add(matrix[ i ][ leftCol ]);
+					for (int i = bottomRow; i >= topRow; i--) {
+						res.add(matrix[ i ][ leftCol ]);
+					}
+					leftCol++;
+					dir = Direction.RIGHT;
 				}
-				leftCol++;
-				dir = Direction.RIGHT;
 			}
-
 
 		}
 

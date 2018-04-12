@@ -6,6 +6,7 @@ public class RecursionSpecial {
 	public static void main(String args[]) {
 
 		RecursionSpecial obj = new RecursionSpecial();
+		System.out.println(obj.isPalindrome("sanast"));
 		System.out.println(obj.countTh("theththaaatgghthss"));
 		System.out.println(obj.moveX("monxeyxgame"));
 		System.out.println(obj.moveEmptySpaces("    Sa an deep"));
@@ -17,9 +18,22 @@ public class RecursionSpecial {
 		System.out.println(obj.mutliply(2, 3));
 		System.out.println(obj.findElementBinarySearch(new int[] { 1, 3, 5, 7, 9, 11, 15, 16, 50, 100 }, 5));
 
-			/*System.out.println(obj.countTimes10(new int[] { 1, 5, 6, 160, 8, 80, 90, 90 }, 0));
+			//System.out.println(obj.countTimes10(new int[] { 1, 5, 6, 160, 8, 80, 90, 90 }, 0));
 
-*/
+
+	}
+	
+	
+	public boolean isPalindrome(String str){
+		if(str.length() <= 1){
+			return true;
+		}
+
+		if(str.charAt(0) != str.charAt(str.length() -1)){
+			return false;
+		}
+
+		return isPalindrome(str.substring(1,str.length() -1));
 	}
 
 	public int findElementBinarySearch(int[] arr, int target) {
@@ -59,6 +73,8 @@ public class RecursionSpecial {
 	// 2 + ( 2 ,1 = 4
 	// 2 +   (2 , 0) = 2
 
+	
+	
 	public int mutliply(int x , int y){
 
 		if(x == 0) return 0;
@@ -78,6 +94,7 @@ public class RecursionSpecial {
 
 	}
 
+	
 	public int digitOccurance(int digit , int occurance){
 
 		if(digit == 0){
@@ -90,7 +107,9 @@ public class RecursionSpecial {
 
 		return digitOccurance(digit/10,occurance);
 	}
-
+	
+	
+	
 	public String wordReverse(String str){
 
 		int idx = str.indexOf(" ");
@@ -102,6 +121,8 @@ public class RecursionSpecial {
 		return wordReverse(str.substring(idx + 1)) +" "+ wordReverse(str.substring(0,idx));
 	}
 
+	
+	
 	public String reverseStringUtil(String str){
 
 		if(str.length() < 2){

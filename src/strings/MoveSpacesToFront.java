@@ -17,7 +17,7 @@ public class MoveSpacesToFront {
 
 		char[] arr = str.toCharArray();
 		int end = arr.length - 1;
-		for(int i = end ; i>=0;i--){
+		for(int i = end ; i >= 0;i--){
 
 			if(arr[i] !=' '){
 				swap(arr , i , end--);

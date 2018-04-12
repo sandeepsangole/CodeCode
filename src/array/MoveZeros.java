@@ -20,21 +20,22 @@ public class MoveZeros {
 	public static void main(String[] args) {
 
 		System.out.println(Arrays.toString(moveZeros(new int[]{0,1,2,0,14})));
+		System.out.println(Arrays.toString(moveZeros(new int[]{0,1,2,0,14})));
 	}
 
+	
+	
 
 	public static int[] moveZeros(int[] arr) {
 
 		int i = 0;
 		int j = 0;
 		while (j < arr.length) {
-			if (arr[ j ] == 0) {
-				j++;
-			} else {
+			if (arr[ j ] != 0) {
 				arr[ i ] = arr[ j ];
 				i++;
-				j++;
-			}
+			} 
+			j++;
 		}
 
 		while (i < arr.length) {
@@ -45,5 +46,32 @@ public class MoveZeros {
 
 		return arr;
 
+	}
+
+	public static int[] moveZeros1(int[] arr) {
+
+		if(arr == null || arr.length == 0){
+			return arr;
+		}
+
+		int i = 0;
+		int j = 0;
+
+		while(j < arr.length){
+
+			if(arr[j] != 0){
+				arr[i] = arr[j];
+				i++;
+			}
+
+			j++;
+		}
+
+		while(i < arr.length - 1){
+			arr[i] = 0;
+			i++;
+		}
+
+		return arr;
 	}
 }

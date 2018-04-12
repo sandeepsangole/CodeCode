@@ -13,23 +13,24 @@ public class SimplifyPath {
 		StringBuilder res = new StringBuilder();
 		res.append("/");
 
-		Stack<String> stack = new Stack<>();
-		String[] pathStrings = path.split("/");
-		for(String s : pathStrings){
-			if(" ".equals(s) || s.equals(".") || s.length() == 0){
+		Stack<String> stack       = new Stack<>();
+		String[]      pathStrings = path.split("/");
+		for (String s : pathStrings) {
+			if (" ".equals(s) || s.equals(".") || s.length() == 0) {
 				continue;
-			} else if("..".equals(s)){
-				if(!stack.isEmpty()){
+			} else if ("..".equals(s)) {
+				if (!stack.isEmpty()) {
 					stack.pop();
 				}
-			} else {stack.push(s);
+			} else {
+				stack.push(s);
 			}
 		}
 
-		while(!stack.isEmpty()){
+		while (!stack.isEmpty()) {
 
 			res.append(stack.pop());
-			if(!stack.isEmpty()){
+			if (!stack.isEmpty()) {
 				res.append("/");
 			}
 

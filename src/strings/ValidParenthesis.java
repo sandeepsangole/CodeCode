@@ -20,22 +20,22 @@ public class ValidParenthesis {
 		System.out.println(obj.isValidParenthesis("([)]"));
 	}
 
-	public boolean isValidParenthesis(String input){
+	public boolean isValidParenthesis(String input) {
 
-		Map<Character,Character> map = new HashMap<>();
-		map.put('(',')');
-		map.put('{','}');
-		map.put('[',']');
+		Map<Character, Character> map = new HashMap<>();
+		map.put('(', ')');
+		map.put('{', '}');
+		map.put('[', ']');
 
 		Stack<Character> stack = new Stack<>();
-		for (char c : input.toCharArray()){
+		for (char c : input.toCharArray()) {
 
-			if(map.containsKey(c)){
+			if (map.containsKey(c)) {
 				stack.push(c);
-			} else if(map.values().contains(c)){
-					if(!stack.isEmpty() && map.get(stack.peek()) == c){
-							stack.pop();
-					}
+			} else if (map.values().contains(c)) {
+				if (!stack.isEmpty() && map.get(stack.peek()) == c) {
+					stack.pop();
+				}
 			}
 
 

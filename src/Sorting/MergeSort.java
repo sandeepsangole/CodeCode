@@ -43,7 +43,7 @@ public class MergeSort {
 			return;
 		}
 
-		int mid = arr.length /2;
+		int mid = arr.length / 2;
 
 		int[] leftArray = new int[mid];
 		int[] rightArray = new int[arr.length - mid];
@@ -53,7 +53,8 @@ public class MergeSort {
 		}
 
 		int count = 0;
-		for(int i = mid;i<arr.length;i++){
+		
+		for(int i = mid; i < arr.length ; i++){
 			rightArray[count] = arr[i];
 			count++;
 		}
@@ -70,6 +71,7 @@ public class MergeSort {
 		int mergePointer = 0;
 
 		while(leftPointer < leftArray.length && rightPointer < rightArray.length ) {
+			
 			if (leftArray[ leftPointer ] > rightArray[ rightPointer ]) {
 				arr[ mergePointer ] = rightArray[ rightPointer ];
 				rightPointer++;

@@ -1,5 +1,17 @@
 package cracking.coding.arraystring;
+/*
+	input : Tact Coa
+	T 2
+	a 2
+	c 2
+	o - 1
+	
+	if(count%2 != 0)
+	  od ++
+	  
+	if od > 1 returhn false  
 
+ */
 
 import java.util.*;
 

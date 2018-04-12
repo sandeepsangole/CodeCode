@@ -29,4 +29,18 @@ public class SumLeftLeaf {
 
 		return ;
 	}
+	
+	public void leftLeafSum1(Node root , Node parent , int[] sum){
+		
+		if(root != null){
+			
+			if(root.left == null && root.right == null && root.left == parent){
+				sum[0] +=root.data;
+			}
+
+			leftLeafSum1(root.left , root,sum);
+			leftLeafSum1(root.right , root,sum);
+			
+		}
+	}
 }

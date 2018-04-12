@@ -7,7 +7,7 @@ package dp.matrix;
 count = 1;
 s d r sh
 t t t 0
-boolean[] visited = new booelan[n - 1];
+boolean[] visited = new boolean[n - 1];
 
    s d r sh
 s  1 1 0 0
@@ -58,6 +58,46 @@ public class FriendCircles {
 		System.out.println(findFriendCricles(mat));
 
 	}
+
+	private int findFriendCS(int[][] mat){
+
+		boolean[] visited = new boolean[mat.length];
+		int count = 0;
+		for (int i = 0;i<mat.length;i++){
+			if(!visited[i]){
+				count++;
+				visited[i] = true;
+				findFriendCSUtil(mat , visited , i);
+			}
+		}
+
+		return count;
+	}
+
+	private void findFriendCSUtil(int[][] mat , boolean[] visited , int index){
+
+		for (int i = 0;i<mat.length;i++){
+			if(!visited[i] && mat[index][i] == 1){
+				visited[i] = true;
+				findFriendCSUtil(mat,visited,i);
+			}
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	public static int findFriendCricles(int[][] matrix){
 

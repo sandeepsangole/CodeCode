@@ -37,7 +37,7 @@ The cells are adjacent in only four directions: up, down, left and right.
 import java.util.LinkedList;
 import java.util.*;
 
-public class Matrix01 {
+public class   Matrix01 {
 
 	public static void main(String[] args) {
 		Matrix01 obj = new Matrix01();
@@ -61,7 +61,7 @@ public class Matrix01 {
 			int r = matrix.length;
 			int c = matrix[0].length;
 
-			int[][] cache = new int[r][c];
+		   int[][] cache = new int[r][c];
 			Queue<int[]> queue = new LinkedList<>();
 
 			for(int i =0;i<r;i++){

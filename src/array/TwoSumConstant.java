@@ -21,15 +21,16 @@ public class TwoSumConstant implements TwoSum{
 
 	Set<Integer> sum = new HashSet<>();
 
+	List<Integer> list = new ArrayList<>();
+
+	//4  - 9
 	@Override
 	public void store(int input) {
-		Iterator<Integer> it = sum.iterator();
-		while (it.hasNext()) {
-			int n = it.next();
-			sum.add(input + n);
-		}
 
-		sum.add(input);
+		for(int n : list){
+			sum.add(n+input);
+		}
+		list.add(input);
 	}
 
 	@Override
@@ -39,12 +40,20 @@ public class TwoSumConstant implements TwoSum{
 
 	public static void main(String[] args) {
 		TwoSumConstant obj = new TwoSumConstant();
-		obj.store(4);
-		obj.store(-1);
-		obj.store(9);
+		obj.store(1);
+		obj.store(-2);
+		obj.store(3);
+		obj.store(6);
 
-		for (int i : obj.sum){
-			System.out.print(i +" ");
-		}
+
+		System.out.println(obj.test(4));
+		System.out.println(obj.test(-1));
+		System.out.println(obj.test(9));
+
+		System.out.println(obj.test(10));
+		System.out.println(obj.test(5));
+		System.out.println(obj.test(0));
+
+
 	}
 }

@@ -1,5 +1,6 @@
 package favourites;
 
+import java.net.Inet4Address;
 import java.util.*;
 
 /*
@@ -21,18 +22,23 @@ public class MeetingRoomI {
 		Intervals intervals1 = new Intervals(8,10);
 		Intervals intervals2 = new Intervals(7,13);
 		Intervals intervals3 = new Intervals(12,14);
+		Intervals intervals4 = new Intervals(12,14);
 
 
-		Intervals[] intervals = new Intervals[3];
+		Intervals[] intervals = new Intervals[4];
 		intervals[ 0 ] = intervals1;
 		intervals[ 1 ] = intervals2;
 		intervals[ 2 ] = intervals3;
+		intervals[ 3 ] = intervals4;
 
 		System.out.println(canAttendAllMeetings(intervals));
 		System.out.println(canAttendAllMeetingsDelete(intervals));
 		System.out.println(countOfMeetingRoomsRequired(intervals));
 	}
 
+
+	
+	
 	public static boolean canAttendAllMeetingsDelete(Intervals[] intervals){
 
 		Arrays.sort(intervals, (Intervals i1 , Intervals i2) -> i1.startTime - i2.startTime);
@@ -45,6 +51,7 @@ public class MeetingRoomI {
 		return true;
 	}
 
+	
 	/*
 		7 - 8
 		8 - 19
@@ -73,10 +80,8 @@ public class MeetingRoomI {
 		int count = 1;
 		for(int i =1;i<intervals.length;i++){
 
-			if(intervals[i].startTime < pq.peek()){
+			if(intervals[i].startTime < pq.poll()){
 				count++;
-			} else {
-				pq.poll();
 			}
 
 			pq.offer(intervals[i].endTime);

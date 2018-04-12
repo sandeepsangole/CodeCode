@@ -64,8 +64,6 @@ public class BTZigZag {
 				if (tmp.right != null) {
 					stack2.push(tmp.right);
 				}
-
-
 			}
 
 			if (subLst.size() > 0) {

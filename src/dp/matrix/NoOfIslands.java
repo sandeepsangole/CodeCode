@@ -11,7 +11,7 @@ Input : mat[][] = {{1, 1, 0, 0, 0},
                    {1, 0, 1, 0, 1}
 
       int[] rowNieghbours = { -1, -1, -1, 0, 0,   1, 1, 1 };
-		int[] colNeighbours = { -1,   0, 1, 1, -1, -1, 0, 1 };
+	   int[] colNeighbours = { -1,   0, 1, 1, -1, -1, 0, 1 };
 
 Output : 5
 
@@ -20,6 +20,8 @@ Output : 5
 public class NoOfIslands {
 
 	public static void main(String[] args) {
+
+
 		int mat[][] =
 				{
 						{ 1, 1, 0, 0, 0 },

@@ -13,7 +13,7 @@ public class Traversals {
 		System.out.println(obj.levelOrderTraversal(root));
 		System.out.println(obj.spiralOrder(root));
 		System.out.println(obj.verticalOrder(root));
-		//System.out.println(obj.printNodePath(root , new Node(4)));
+		System.out.println(obj.printNodePath(root , new Node(4)));
 		System.out.println(obj.bottomLeftMostNode(root));
 		System.out.println(obj.rightSideView(root));
 		System.out.println("Longest "+obj.longestPath(root));
@@ -24,8 +24,8 @@ public class Traversals {
 		System.out.println(obj.binaryTreePaths(root));
 
 
-
 	}
+
 	/*
 
 	    	 1
@@ -33,6 +33,11 @@ public class Traversals {
 	    2     3
 	  /   \   / \
 	 4     5 6   7
+
+ inorder ; left root right
+
+
+
 
  */
 
@@ -56,7 +61,8 @@ public class Traversals {
 		}
 
 	}
-
+	
+	
 	public int longestPath(Node root){
 		int[] max = new int[1];
 		longestPath(root , max);
@@ -87,10 +93,9 @@ public class Traversals {
 		 Node left = findNext(root.left, target) ;
 
 		return left != null && left.data > target.data ? left : root;
-
-
-
+	
 	}
+	
 
 	Node tmp = null;
 	public void flatternTree(Node root){
@@ -233,7 +238,6 @@ public class Traversals {
 
 		   if(map.containsKey(level)){
 			   map.get(level).add(tmp.data);
-
 		   } else {
 			   ArrayList<Integer> tmpLst = new ArrayList<>();
 			   tmpLst.add(tmp.data);

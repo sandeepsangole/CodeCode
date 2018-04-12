@@ -32,6 +32,7 @@ public class CombinationSum {
 		obj.combinationSum(arr, 7);
 	}
 
+
 	public List<List<Integer>> combinationSum(int[] arr, int target) {
 
 		List<List<Integer>> res = new ArrayList<>();
@@ -51,15 +52,17 @@ public class CombinationSum {
 
 	public void combinationSumUtil(int[] arr, int start, int target, List<Integer> subLst, List<List<Integer>> res) {
 
-		if (target < 0) return;
 
 		if (target == 0) {
 			res.add(new ArrayList<>(subLst));
 		} else {
 			for (int i = start; i < arr.length; i++) {
-				subLst.add(arr[ i ]);
-				combinationSumUtil(arr, i, target - arr[ i ], subLst, res);
-				subLst.remove(subLst.size() - 1);
+				if(target - arr[ i ] >= 0) {
+					subLst.add(arr[ i ]);
+					combinationSumUtil(arr, i, target - arr[ i ], subLst, res);
+					subLst.remove(subLst.size() - 1);
+				}
+
 			}
 		}
 	}

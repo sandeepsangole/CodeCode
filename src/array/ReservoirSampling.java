@@ -13,9 +13,9 @@ public class ReservoirSampling {
 
 		// reservoir[] is the output array. Initialize it with
 		// first k elements from stream[]
-		int reservoir[] = new int[ k ];
+		int reservoir[] = new int[k];
 		for (i = 0; i < k; i++)
-			reservoir[ i ] = stream[ i ];
+			reservoir[i] = stream[i];
 
 		Random r = new Random();
 
@@ -28,7 +28,7 @@ public class ReservoirSampling {
 			// then replace the element present at the index
 			// with new element from stream
 			if (j < k)
-				reservoir[ j ] = stream[ i ];
+				reservoir[j] = stream[i];
 		}
 
 		System.out.println("Following are k randomly selected items");
@@ -37,7 +37,7 @@ public class ReservoirSampling {
 
 	//Driver Program to test above method
 	public static void main(String[] args) {
-		int stream[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 };
+		int stream[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12};
 		int n        = stream.length;
 		int k        = 5;
 		selectKItems(stream, n, k);

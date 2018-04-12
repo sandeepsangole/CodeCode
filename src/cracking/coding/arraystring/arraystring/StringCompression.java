@@ -1,4 +1,4 @@
-package strings;
+package cracking.coding.arraystring.arraystring;
 
 public class StringCompression {
 
@@ -12,7 +12,7 @@ public class StringCompression {
 		int count = 1;
 		int i = 0;
 		StringBuilder sb = new StringBuilder();
-		for (i = 0;i<str.length() - 1;i++){
+		for (;i<str.length() - 1;i++){
 
 			if (str.charAt(i) == str.charAt(i + 1)){
 				count++;

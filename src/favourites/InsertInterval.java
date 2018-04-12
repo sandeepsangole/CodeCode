@@ -31,13 +31,49 @@ public class InsertInterval {
 
 		//Case 1. New Interval start end before first one starts . Add new to result
 		//Case 2. New interval starts after end of current interval. add current to result
-		//CAse 3 : Overalap. take min start time and max of end time and set as new inerval.
+		//CAse 3: Overalap. take min start time and max of end time and set as new inerval.
 
 		List<Intervals> res = insertInterval(itArray, merge);
 		for (Intervals i : res) {
 			System.out.println(i.startTime + " " + i.endTime);
 		}
+
+		System.out.println();
+		List<Intervals> res1 = insertInterval1(itArray, merge);
+		for (Intervals i : res1) {
+			System.out.println(i.startTime + " " + i.endTime);
+		}
 	}
+	
+	private static List<Intervals> insertInterval1(Intervals[] arr , Intervals merge){
+
+		List<Intervals> res = new ArrayList<>();
+		for (Intervals currInterval : arr){
+			
+			if(currInterval.endTime < merge.startTime){
+				res.add(currInterval);
+			} else if(merge.endTime < currInterval.startTime){
+				res.add(merge);
+				merge = currInterval;
+			} else {
+				merge.startTime = Math.min(currInterval.startTime , merge.startTime);
+				merge.endTime  = Math.max(currInterval.endTime , merge.endTime);
+				
+			}
+		}
+		res.add(merge);
+		return res;
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 	public static List<Intervals> insertInterval(Intervals[] intervals, Intervals mergeInterval) {
 

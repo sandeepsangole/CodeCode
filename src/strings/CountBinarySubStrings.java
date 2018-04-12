@@ -12,7 +12,8 @@ Substrings that occur multiple times are counted the number of times they occur.
 Example 1:
 Input: "00110011"
 Output: 6
-Explanation: There are 6 substrings that have equal number of consecutive 1's and 0's: "0011", "01", "1100", "10", "0011", and "01".
+Explanation: There are 6 substrings that have equal number of consecutive 1's and 0's: "0011", "01", "1100", "10",
+ "0011", and "01".
 
 Notice that some of these substrings repeat and are counted the number of times they occur.
 
@@ -32,18 +33,28 @@ public class CountBinarySubStrings {
 	}
 
 	public static int countBinarySubstrings(String s) {
-		if (s == null || s.length() == 0) return 0;
+		
+		if (s == null || s.length() == 0) {
+			return 0;
+		}
+		
 		int preRun = 0;
 		int curRun = 1;
 		int count  = 0;
+		
 		for (int i = 1; i < s.length(); i++) {
-			if (s.charAt(i) == s.charAt(i - 1)) curRun++;
+			if (s.charAt(i) == s.charAt(i - 1)) {
+				curRun++;
+			}
 			else {
 				preRun = curRun;
 				curRun = 1;
 			}
-			if (preRun >= curRun) count++;
+			if (preRun >= curRun) {
+				count++;
+			}
 		}
+		
 		return count;
 	}
 }

@@ -24,14 +24,14 @@ public class KthFromLeafNode {
 
 		List<Integer>       sublst = new ArrayList<>();
 
-		obj.printkdistanceNodeDown(root, 3);
+		obj.printkdistanceNodeDown(root, 0);
 		//sublst.stream().forEach(System.out::println);
 
 	}
 
 	/*
 
-	    	 1
+	      1
 	     /  \
 	    2     3
 	  /   \   / \

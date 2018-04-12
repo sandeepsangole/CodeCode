@@ -38,23 +38,46 @@ public class GreaterTree {
 		Node        rootBST = BuildTree.buildBinarySearchTree();
 		obj.reverseInOrderTraversal(rootBST);
 		System.out.println();
-		obj.greaterTree(rootBST);
+		System.out.println(obj.greaterTree(rootBST));
+		obj.reverseInOrderTraversal(rootBST);
+
 	}
 
-	public void greaterTree(Node root){
+
+	public void greaterTreeDelete(Node root , int[] sum){
+
+		if(root == null){
+			return;
+		}
+		greaterTreeDelete(root.right , sum);
+		sum[0]+=root.data;
+		root.data = sum[0];
+		root.data = sum[0];
+		greaterTreeDelete(root.left , sum);
+
+
+
+	}
+
+	public int greaterTree(Node root){
 		int[] tmp = new int[1];
 		greaterTreeUtil(root,tmp);
+		return tmp[0];
+
 	}
 	public void greaterTreeUtil(Node root, int[] prev){
 
 		if(root != null){
 			greaterTreeUtil(root.right,prev);
 			prev[0] += root.data;
-			System.out.print(prev[0] +" ");
+			root.data = prev[0];
+			//System.out.print(prev[0] +" ");
 			greaterTreeUtil(root.left,prev);
 		}
 	}
 
+	
+	
 	public void reverseInOrderTraversal(Node root){
 
 		if(root != null){

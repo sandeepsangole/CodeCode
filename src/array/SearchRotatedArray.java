@@ -16,10 +16,10 @@ You may assume no duplicate exists in the array.
 public class SearchRotatedArray {
 
 	public static void main(String[] args) {
-		int[] arr = {3 , 1};
+		int[] arr = {7 ,8 ,12, 1, 2,3,4,5,};
 		int target = 5;
 		SearchRotatedArray obj = new SearchRotatedArray();
-		System.out.println(obj.search(arr, 1));
+		System.out.println(obj.search(arr, 2));
 
 		int[] arr1 = {1};
 		System.out.println(obj.findMin(arr1));
@@ -75,7 +75,8 @@ public class SearchRotatedArray {
 		int end = arr.length -1;
 		while(start < end){
 			int mid = (start + end) /2;
-			if(arr[mid] > arr[end]) start = mid + 1;
+			if(arr[mid] > arr[end])
+				start = mid + 1;
 			else end = mid;
 		}
 		if(start == end) {

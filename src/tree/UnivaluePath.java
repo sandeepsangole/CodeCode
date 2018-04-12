@@ -65,8 +65,8 @@ public class UnivaluePath {
 		}
 
 
-			int left = (root.left != null) ? longestUnivaluePath(root.left,res) : 0;
-			int right = (root.right != null) ?longestUnivaluePath(root.right, res) : 0;
+		int left = (root.left != null) ? longestUnivaluePath(root.left,res) : 0;
+		int right = (root.right != null) ?longestUnivaluePath(root.right, res) : 0;
 
 
 		int leftLen = root.left != null  ? left + 1 : 0;
@@ -76,12 +76,8 @@ public class UnivaluePath {
 
 		return Math.max(leftLen,rightLen);
 
-
-
-
-
-
 	}
+
 
 
 }

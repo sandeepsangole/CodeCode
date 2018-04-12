@@ -42,7 +42,9 @@ public class LongestCommonSubsequence {
 		}
 
 		int[][] cache = new int[arr1.length + 1][ arr2.length + 1];
+		
 		int max = Integer.MIN_VALUE;
+		
 		for(int i = 1;i<=arr1.length;i++){
 			for(int j = 1;j<=arr2.length;j++){
 

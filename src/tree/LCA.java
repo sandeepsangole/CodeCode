@@ -6,14 +6,14 @@ public class LCA {
 		LCA obj  = new LCA();
 		Node       rootBT = BuildTree.buildBinaryTree();
 		Node       rootBST = BuildTree.buildBinarySearchTree();
-		/*Node res = obj.lcaBT(rootBT,new Node(6),new Node(7));
+		Node res = obj.lcaBT(rootBT,new Node(6),new Node(7));
 		System.out.println(res.data);
 
 		System.out.println(obj.isBST(rootBT));
 		System.out.println(obj.isBST(rootBST));
 
 		obj.printBST(rootBST);System.out.println();
-		System.out.println(obj.kthSmallest(rootBST, 2));*/
+		System.out.println(obj.kthSmallest(rootBST, 2));
 
 		System.out.println(obj.findMaxNodeBT(rootBT));
 

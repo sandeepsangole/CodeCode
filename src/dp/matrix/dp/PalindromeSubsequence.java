@@ -21,6 +21,7 @@ public class PalindromeSubsequence {
 			}
 		}
 
+		
 		for (int jumps = 3; jumps <= len; jumps++) {
 			for (int start = 0; start < len - jumps + 1; start++) {
 				int end = start + jumps - 1;

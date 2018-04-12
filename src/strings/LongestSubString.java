@@ -17,8 +17,6 @@ public class LongestSubString {
 
 		System.out.println(longestSubString("abc abcdvb"));
 		System.out.println(longestSubString("abcabcbb"));
-
-
 	}
 
 	public static int longestSubString(String str){

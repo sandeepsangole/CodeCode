@@ -1,16 +1,16 @@
 package dp.matrix.dp;
 
-import java.util.*;
+	import java.util.*;
 
-public class TotalWaysCoinChange {
+	public class TotalWaysCoinChange {
 
-	public static void main(String[] args) {
+		public static void main(String[] args) {
 
-		TotalWaysCoinChange obj = new TotalWaysCoinChange();
-		obj.totalWaysCoinChange(new int[]{1,2,3},5);
+			TotalWaysCoinChange obj = new TotalWaysCoinChange();
+			obj.totalWaysCoinChange(new int[]{1,2,3},5);
 
-		System.out.println(obj.totalWaysMatrixDelete(new int[]{1,2,3},5));
-	}
+			System.out.println(obj.totalWaysMatrixDelete(new int[]{1,2,3},5));
+		}
 
 	public List<List<Integer>> totalWaysCoinChange(int[] coins, int total){
 		List<List<Integer>> res = new ArrayList<>();
@@ -100,4 +100,5 @@ public class TotalWaysCoinChange {
 		return cache[coins.length][total];
 
 	}
+
 }

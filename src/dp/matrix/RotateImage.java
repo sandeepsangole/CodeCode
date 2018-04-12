@@ -87,7 +87,7 @@ public class RotateImage {
 
 		};
 
-		for (int i =0;i< image.length;i++){
+		for (int i = 0;i < image.length;i++){
 
 			for (int j =0;j<image[0].length;j++){
 				System.out.print(image[i][j] +" ");
@@ -103,6 +103,14 @@ public class RotateImage {
 				image[ i ][ j ] = image[ j ][ i ];
 				image[ j ][ i ] = tmp;
 			}
+		}
+
+		for (int i = 0;i < image.length;i++){
+
+			for (int j =0;j<image[0].length;j++){
+				System.out.print(image[i][j] +" ");
+			}
+			System.out.println();
 		}
 
 		for(int[] row : image){

@@ -26,9 +26,10 @@ public class BTRightSideView {
 		BTRightSideView obj = new BTRightSideView();
 		Node root = BuildTree.buildBinaryTree();
 		List<Integer> res = new ArrayList<>();
-		obj.rightSideView(root,res,1);
+		obj.rightSideView(root,res,0);
 		res.stream().forEach(System.out::println);
 	}
+
 
 	public void rightSideView(Node root , List<Integer> res , int level){
 
@@ -36,7 +37,7 @@ public class BTRightSideView {
 			return;
 		}
 
-		if(level > res.size()){
+		if(level == res.size()){
 				res.add(root.data);
 		}
 

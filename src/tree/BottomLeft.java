@@ -38,7 +38,6 @@ public class BottomLeft {
 	}
 
 
-
    /*
 
    	1. Bottom Left
