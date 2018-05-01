@@ -2,190 +2,188 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8514109-0c1e-4ede-9944-ebfcf56b38f7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LongestSubString.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SearchRotatedArray.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/array/AsteriodCollision.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/array/FindDuplicate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/array/FindKPairsWithSmallSum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/array/FindPivot.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/array/RotateArray.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/array/TopKElements.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/array/TopKFrequentWords.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/array/ValidSudoku.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/binary/BitCount.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/binary/PrintBinary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cracking/coding/arraystring/arraystring/RotateImage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dfs/EmployeeImportance.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/linkdin/DepthArray.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/linkdin/NearestOne.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/linkedlist/SwapNodesPairs.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/math/ExcelSheetTitle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/math/HappyNumber.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/math/RaiseTo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/numbers/ArrangeCoins.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/practice/LCA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/practice/Traversals.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/practice/TreePaths.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pramp/Yahoo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/recursion/DiceWays.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/recursion/FileDir.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/specials/LRUCache.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/specials/LRUCacheMain.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/stack/NextGreaterElement.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/strings/CombinationStrings.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/strings/CountAndSay.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/strings/DecodeString.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/strings/DecodeWays.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/strings/GroupAnagrams.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/strings/GroupShiftedString.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/strings/GroupStrings.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/strings/IsAnagram.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/strings/MinWindow.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/strings/ReplaceWords.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/strings/RomanToInteger.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/strings/StringCombinations.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/strings/WordBreak.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/strings/WordPattern.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/strings/WordPatternII.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/strings/parenthesis/LongestValidParenthesis.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tree/DeleteNodeBST.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tree/StringFromBT.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/yahoo/CombinationSumIV.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/strings/OneEditDistance.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/strings/StringCompression.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/strings/UniqueChars.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/strings/OneEditDistance.java" afterPath="$PROJECT_DIR$/src/cracking/coding/arraystring/arraystring/OneEditDistance.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/strings/StringCompression.java" afterPath="$PROJECT_DIR$/src/cracking/coding/arraystring/arraystring/StringCompression.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/strings/UniqueChars.java" afterPath="$PROJECT_DIR$/src/cracking/coding/arraystring/arraystring/UniqueChars.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeCode/BuySellStock/BuySellStockI.class" afterPath="$PROJECT_DIR$/out/production/CodeCode/BuySellStock/BuySellStockI.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeCode/Permutations/CombinationSum.class" afterPath="$PROJECT_DIR$/out/production/CodeCode/Permutations/CombinationSum.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeCode/Sorting/MergeSort.class" afterPath="$PROJECT_DIR$/out/production/CodeCode/Sorting/MergeSort.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeCode/Sorting/QuickSort.class" afterPath="$PROJECT_DIR$/out/production/CodeCode/Sorting/QuickSort.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeCode/array/ConsecutiveOnes.class" afterPath="$PROJECT_DIR$/out/production/CodeCode/array/ConsecutiveOnes.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeCode/array/FindMinRotatedArray.class" afterPath="$PROJECT_DIR$/out/production/CodeCode/array/FindMinRotatedArray.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeCode/array/FindMissing.class" afterPath="$PROJECT_DIR$/out/production/CodeCode/array/FindMissing.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeCode/array/KSmallest.class" afterPath="$PROJECT_DIR$/out/production/CodeCode/array/KSmallest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeCode/array/MajorityElement.class" afterPath="$PROJECT_DIR$/out/production/CodeCode/array/MajorityElement.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeCode/array/MoveZeros.class" afterPath="$PROJECT_DIR$/out/production/CodeCode/array/MoveZeros.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeCode/array/SearchRotatedArray.class" afterPath="$PROJECT_DIR$/out/production/CodeCode/array/SearchRotatedArray.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeCode/array/ShuffleArray.class" afterPath="$PROJECT_DIR$/out/production/CodeCode/array/ShuffleArray.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeCode/array/TwoSumConstant.class" afterPath="$PROJECT_DIR$/out/production/CodeCode/array/TwoSumConstant.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeCode/cracking/coding/arraystring/OneAway.class" afterPath="$PROJECT_DIR$/out/production/CodeCode/cracking/coding/arraystring/OneAway.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeCode/cracking/coding/arraystring/PalindromePermutation.class" afterPath="$PROJECT_DIR$/out/production/CodeCode/cracking/coding/arraystring/PalindromePermutation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeCode/dp/matrix/FindWord.class" afterPath="$PROJECT_DIR$/out/production/CodeCode/dp/matrix/FindWord.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeCode/dp/matrix/FriendCircles.class" afterPath="$PROJECT_DIR$/out/production/CodeCode/dp/matrix/FriendCircles.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeCode/dp/matrix/IslandPerimeter.class" afterPath="$PROJECT_DIR$/out/production/CodeCode/dp/matrix/IslandPerimeter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeCode/dp/matrix/NoOfIslands.class" afterPath="$PROJECT_DIR$/out/production/CodeCode/dp/matrix/NoOfIslands.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeCode/dp/matrix/RotateImage.class" afterPath="$PROJECT_DIR$/out/production/CodeCode/dp/matrix/RotateImage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeCode/dp/matrix/SpiralMatrixI$Direction.class" afterPath="$PROJECT_DIR$/out/production/CodeCode/dp/matrix/SpiralMatrixI$Direction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeCode/dp/matrix/SpiralMatrixI.class" afterPath="$PROJECT_DIR$/out/production/CodeCode/dp/matrix/SpiralMatrixI.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeCode/dp/matrix/dp/CoinChange.class" afterPath="$PROJECT_DIR$/out/production/CodeCode/dp/matrix/dp/CoinChange.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeCode/dp/matrix/dp/HistogramArea.class" afterPath="$PROJECT_DIR$/out/production/CodeCode/dp/matrix/dp/HistogramArea.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeCode/dp/matrix/dp/LongestCommonSubsequence.class" afterPath="$PROJECT_DIR$/out/production/CodeCode/dp/matrix/dp/LongestCommonSubsequence.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeCode/dp/matrix/dp/PalindromeSubsequence.class" afterPath="$PROJECT_DIR$/out/production/CodeCode/dp/matrix/dp/PalindromeSubsequence.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeCode/dp/matrix/dp/PalindromeSubstring.class" afterPath="$PROJECT_DIR$/out/production/CodeCode/dp/matrix/dp/PalindromeSubstring.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeCode/dp/matrix/dp/WildCardMatching.class" afterPath="$PROJECT_DIR$/out/production/CodeCode/dp/matrix/dp/WildCardMatching.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeCode/favourites/InsertInterval.class" afterPath="$PROJECT_DIR$/out/production/CodeCode/favourites/InsertInterval.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeCode/favourites/MeetingRoomI.class" afterPath="$PROJECT_DIR$/out/production/CodeCode/favourites/MeetingRoomI.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeCode/favourites/MergeIntervals.class" afterPath="$PROJECT_DIR$/out/production/CodeCode/favourites/MergeIntervals.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeCode/graph/Graph.class" afterPath="$PROJECT_DIR$/out/production/CodeCode/graph/Graph.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeCode/linkedlist/RemoveDuplicate.class" afterPath="$PROJECT_DIR$/out/production/CodeCode/linkedlist/RemoveDuplicate.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeCode/pramp/WordCount.class" afterPath="$PROJECT_DIR$/out/production/CodeCode/pramp/WordCount.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeCode/recursion/RecursionSpecial.class" afterPath="$PROJECT_DIR$/out/production/CodeCode/recursion/RecursionSpecial.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeCode/specials/SerializeDeserializeTree.class" afterPath="$PROJECT_DIR$/out/production/CodeCode/specials/SerializeDeserializeTree.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeCode/specials/TinyUrl.class" afterPath="$PROJECT_DIR$/out/production/CodeCode/specials/TinyUrl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeCode/specials/Trie.class" afterPath="$PROJECT_DIR$/out/production/CodeCode/specials/Trie.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeCode/stack/MinStackDemo.class" afterPath="$PROJECT_DIR$/out/production/CodeCode/stack/MinStackDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeCode/strings/Anagram.class" afterPath="$PROJECT_DIR$/out/production/CodeCode/strings/Anagram.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeCode/strings/CountBinarySubStrings.class" afterPath="$PROJECT_DIR$/out/production/CodeCode/strings/CountBinarySubStrings.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeCode/strings/Isomorphic.class" afterPath="$PROJECT_DIR$/out/production/CodeCode/strings/Isomorphic.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeCode/strings/LongestSubString.class" afterPath="$PROJECT_DIR$/out/production/CodeCode/strings/LongestSubString.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeCode/strings/SimplifyPath.class" afterPath="$PROJECT_DIR$/out/production/CodeCode/strings/SimplifyPath.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeCode/tree/BTPaths.class" afterPath="$PROJECT_DIR$/out/production/CodeCode/tree/BTPaths.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeCode/tree/BTRightSideView.class" afterPath="$PROJECT_DIR$/out/production/CodeCode/tree/BTRightSideView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeCode/tree/BTZigZag.class" afterPath="$PROJECT_DIR$/out/production/CodeCode/tree/BTZigZag.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeCode/tree/BalancedBinaryTree.class" afterPath="$PROJECT_DIR$/out/production/CodeCode/tree/BalancedBinaryTree.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeCode/tree/BottomLeft.class" afterPath="$PROJECT_DIR$/out/production/CodeCode/tree/BottomLeft.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeCode/tree/BuildTree.class" afterPath="$PROJECT_DIR$/out/production/CodeCode/tree/BuildTree.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeCode/tree/GreaterTree.class" afterPath="$PROJECT_DIR$/out/production/CodeCode/tree/GreaterTree.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeCode/tree/KthFromLeafNode.class" afterPath="$PROJECT_DIR$/out/production/CodeCode/tree/KthFromLeafNode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeCode/tree/LCA.class" afterPath="$PROJECT_DIR$/out/production/CodeCode/tree/LCA.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeCode/tree/LargestValueEachRow.class" afterPath="$PROJECT_DIR$/out/production/CodeCode/tree/LargestValueEachRow.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeCode/tree/MaxPathSum.class" afterPath="$PROJECT_DIR$/out/production/CodeCode/tree/MaxPathSum.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeCode/tree/SumLeftLeaf.class" afterPath="$PROJECT_DIR$/out/production/CodeCode/tree/SumLeftLeaf.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodeCode/tree/Traversals.class" afterPath="$PROJECT_DIR$/out/production/CodeCode/tree/Traversals.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BuySellStock/BuySellStockI.java" afterPath="$PROJECT_DIR$/src/BuySellStock/BuySellStockI.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Permutations/CombinationSum.java" afterPath="$PROJECT_DIR$/src/Permutations/CombinationSum.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sorting/MergeSort.java" afterPath="$PROJECT_DIR$/src/Sorting/MergeSort.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sorting/QuickSort.java" afterPath="$PROJECT_DIR$/src/Sorting/QuickSort.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/array/ConsecutiveOnes.java" afterPath="$PROJECT_DIR$/src/array/ConsecutiveOnes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/array/FindMinRotatedArray.java" afterPath="$PROJECT_DIR$/src/array/FindMinRotatedArray.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/array/FindMissing.java" afterPath="$PROJECT_DIR$/src/array/FindMissing.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/array/KLargest.java" afterPath="$PROJECT_DIR$/src/array/KLargest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/array/KSmallest.java" afterPath="$PROJECT_DIR$/src/array/KSmallest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/array/MajorityElement.java" afterPath="$PROJECT_DIR$/src/array/MajorityElement.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/array/MoveZeros.java" afterPath="$PROJECT_DIR$/src/array/MoveZeros.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/array/ReservoirSampling.java" afterPath="$PROJECT_DIR$/src/array/ReservoirSampling.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/array/SearchRotatedArray.java" afterPath="$PROJECT_DIR$/src/array/SearchRotatedArray.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/array/ShuffleArray.java" afterPath="$PROJECT_DIR$/src/array/ShuffleArray.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/array/TwoSumConstant.java" afterPath="$PROJECT_DIR$/src/array/TwoSumConstant.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cracking/coding/arraystring/OneAway.java" afterPath="$PROJECT_DIR$/src/cracking/coding/arraystring/OneAway.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cracking/coding/arraystring/PalindromePermutation.java" afterPath="$PROJECT_DIR$/src/cracking/coding/arraystring/PalindromePermutation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cracking/coding/arraystring/tree/LinkedListByLevel.java" afterPath="$PROJECT_DIR$/src/cracking/coding/arraystring/tree/LinkedListByLevel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dp/matrix/FindWord.java" afterPath="$PROJECT_DIR$/src/dp/matrix/FindWord.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dp/matrix/FriendCircles.java" afterPath="$PROJECT_DIR$/src/dp/matrix/FriendCircles.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dp/matrix/Guard.java" afterPath="$PROJECT_DIR$/src/dp/matrix/Guard.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dp/matrix/IslandPerimeter.java" afterPath="$PROJECT_DIR$/src/dp/matrix/IslandPerimeter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dp/matrix/Matrix01.java" afterPath="$PROJECT_DIR$/src/dp/matrix/Matrix01.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dp/matrix/NoOfIslands.java" afterPath="$PROJECT_DIR$/src/dp/matrix/NoOfIslands.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dp/matrix/RotateImage.java" afterPath="$PROJECT_DIR$/src/dp/matrix/RotateImage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dp/matrix/SpiralMatrixI.java" afterPath="$PROJECT_DIR$/src/dp/matrix/SpiralMatrixI.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dp/matrix/dp/CoinChange.java" afterPath="$PROJECT_DIR$/src/dp/matrix/dp/CoinChange.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dp/matrix/dp/EggDrop.java" afterPath="$PROJECT_DIR$/src/dp/matrix/dp/EggDrop.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dp/matrix/dp/HistogramArea.java" afterPath="$PROJECT_DIR$/src/dp/matrix/dp/HistogramArea.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dp/matrix/dp/LongestCommonSubsequence.java" afterPath="$PROJECT_DIR$/src/dp/matrix/dp/LongestCommonSubsequence.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dp/matrix/dp/PalindromeSubsequence.java" afterPath="$PROJECT_DIR$/src/dp/matrix/dp/PalindromeSubsequence.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dp/matrix/dp/PalindromeSubstring.java" afterPath="$PROJECT_DIR$/src/dp/matrix/dp/PalindromeSubstring.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dp/matrix/dp/TotalWaysCoinChange.java" afterPath="$PROJECT_DIR$/src/dp/matrix/dp/TotalWaysCoinChange.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dp/matrix/dp/WildCardMatching.java" afterPath="$PROJECT_DIR$/src/dp/matrix/dp/WildCardMatching.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/favourites/CourseSchedule.java" afterPath="$PROJECT_DIR$/src/favourites/CourseSchedule.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/favourites/InsertInterval.java" afterPath="$PROJECT_DIR$/src/favourites/InsertInterval.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/favourites/MeetingRoomI.java" afterPath="$PROJECT_DIR$/src/favourites/MeetingRoomI.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/favourites/MergeIntervals.java" afterPath="$PROJECT_DIR$/src/favourites/MergeIntervals.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/graph/Graph.java" afterPath="$PROJECT_DIR$/src/graph/Graph.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/linkedlist/RemoveDuplicate.java" afterPath="$PROJECT_DIR$/src/linkedlist/RemoveDuplicate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pramp/WordCount.java" afterPath="$PROJECT_DIR$/src/pramp/WordCount.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/recursion/RecursionSpecial.java" afterPath="$PROJECT_DIR$/src/recursion/RecursionSpecial.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/specials/SerializeDeserializeTree.java" afterPath="$PROJECT_DIR$/src/specials/SerializeDeserializeTree.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/specials/TinyUrl.java" afterPath="$PROJECT_DIR$/src/specials/TinyUrl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/specials/Trie.java" afterPath="$PROJECT_DIR$/src/specials/Trie.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/stack/MinStackDemo.java" afterPath="$PROJECT_DIR$/src/stack/MinStackDemo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/strings/Anagram.java" afterPath="$PROJECT_DIR$/src/strings/Anagram.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/strings/CountBinarySubStrings.java" afterPath="$PROJECT_DIR$/src/strings/CountBinarySubStrings.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/strings/Isomorphic.java" afterPath="$PROJECT_DIR$/src/strings/Isomorphic.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/strings/LongestSubString.java" afterPath="$PROJECT_DIR$/src/strings/LongestSubString.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/strings/MoveSpacesToFront.java" afterPath="$PROJECT_DIR$/src/strings/MoveSpacesToFront.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/strings/SimplifyPath.java" afterPath="$PROJECT_DIR$/src/strings/SimplifyPath.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/strings/ValidParenthesis.java" afterPath="$PROJECT_DIR$/src/strings/ValidParenthesis.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/strings/ValidParenthesisII.java" afterPath="$PROJECT_DIR$/src/strings/ValidParenthesisII.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tree/BTPaths.java" afterPath="$PROJECT_DIR$/src/tree/BTPaths.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tree/BTRightSideView.java" afterPath="$PROJECT_DIR$/src/tree/BTRightSideView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tree/BTZigZag.java" afterPath="$PROJECT_DIR$/src/tree/BTZigZag.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tree/BalancedBinaryTree.java" afterPath="$PROJECT_DIR$/src/tree/BalancedBinaryTree.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tree/BottomLeft.java" afterPath="$PROJECT_DIR$/src/tree/BottomLeft.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tree/BuildTree.java" afterPath="$PROJECT_DIR$/src/tree/BuildTree.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tree/GreaterTree.java" afterPath="$PROJECT_DIR$/src/tree/GreaterTree.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tree/KthFromLeafNode.java" afterPath="$PROJECT_DIR$/src/tree/KthFromLeafNode.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tree/LCA.java" afterPath="$PROJECT_DIR$/src/tree/LCA.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tree/LargestValueEachRow.java" afterPath="$PROJECT_DIR$/src/tree/LargestValueEachRow.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tree/MaxPathSum.java" afterPath="$PROJECT_DIR$/src/tree/MaxPathSum.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tree/SumLeftLeaf.java" afterPath="$PROJECT_DIR$/src/tree/SumLeftLeaf.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tree/Traversals.java" afterPath="$PROJECT_DIR$/src/tree/Traversals.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tree/TrimBST.java" afterPath="$PROJECT_DIR$/src/tree/TrimBST.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tree/UnivaluePath.java" afterPath="$PROJECT_DIR$/src/tree/UnivaluePath.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/BuySellStock/BuySellStockI.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/LongestSubString.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/Permutations/CombinationSum.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/Permutations/CombinationSumII.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/Permutations/PalindromePartition.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/Permutations/PermutationII.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/Permutations/PermutationsI.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/Permutations/Subsets.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/Permutations/SubsetsII.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/SearchRotatedArray.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/Sorting/MergeSort.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/Sorting/QuickSort.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/Test.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/array/AddDigits.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/array/AsteriodCollision.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/array/ConsecutiveOnes.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/array/FindDuplicate.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/array/FindKPairsWithSmallSum.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/array/FindMinRotatedArray.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/array/FindMissing.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/array/FindPivot.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/array/KLargest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/array/KSmallest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/array/MajorityElement.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/array/MoveZeros.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/array/ReservoirSampling.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/array/RotateArray.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/array/SearchRotatedArray.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/array/SearchRotatedArrayII.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/array/ShuffleArray.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/array/TopKElements.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/array/TopKFrequentWords.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/array/TwoSum.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/array/TwoSumConstant.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/array/ValidSudoku.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/binary/BitCount.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/binary/NumberOfOnes.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/binary/PrintBinary.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/cracking/coding/arraystring/OneAway.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/cracking/coding/arraystring/PalindromePermutation.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/cracking/coding/arraystring/URLify.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/cracking/coding/arraystring/arraystring/OneEditDistance.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/cracking/coding/arraystring/arraystring/RotateImage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/cracking/coding/arraystring/arraystring/StringCompression.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/cracking/coding/arraystring/arraystring/UniqueChars.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/cracking/coding/arraystring/tree/LinkedListByLevel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/delete/BinaryTree.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/delete/Node.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/delete/TreeDelete.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/dfs/Employee.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/dfs/EmployeeImportance.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/dfs/GenerateParenthesis.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/dp/matrix/FindWord.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/dp/matrix/FindWordII.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/dp/matrix/FriendCircles.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/dp/matrix/Guard.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/dp/matrix/IslandPerimeter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/dp/matrix/JudgeRoute.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/dp/matrix/Matrix01.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/dp/matrix/NearestOneorZero.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/dp/matrix/NoOfIslands.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/dp/matrix/RotateImage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/dp/matrix/SpiralMatrixI$Direction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/dp/matrix/SpiralMatrixI.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/dp/matrix/SpiralMatrixII.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/dp/matrix/dp/CoinChange.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/dp/matrix/dp/EggDrop.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/dp/matrix/dp/HistogramArea.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/dp/matrix/dp/HouseRobber.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/dp/matrix/dp/LongestCommonSubString.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/dp/matrix/dp/LongestCommonSubsequence.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/dp/matrix/dp/MinEditDistance.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/dp/matrix/dp/PalindromeSubsequence.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/dp/matrix/dp/PalindromeSubstring.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/dp/matrix/dp/TotalWaysCoinChange.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/dp/matrix/dp/WildCardMatching.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/favourites/CourseSchedule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/favourites/InsertInterval.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/favourites/Intervals.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/favourites/MeetingRoomI.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/favourites/MeetingRoomII.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/favourites/MergeIntervals.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/graph/Graph.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/graph/GraphMain.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/linkdin/DepthArray.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/linkdin/FindWord.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/linkdin/MinEditDistance.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/linkdin/NearestOne.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/linkedlist/AddTwoDigits.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/linkedlist/LinkedListImplementation.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/linkedlist/ListNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/linkedlist/MergeKSortedList.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/linkedlist/PalindromeLinkedList.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/linkedlist/RemoveDuplicate.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/linkedlist/SwapNodesPairs.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/math/ExcelSheetTitle.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/math/HappyNumber.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/math/RaiseTo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/numbers/ArrangeCoins.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/numbers/PalindromeNumber.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/numbers/PerfectNumber.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/numbers/SquareRoot.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/practice/LCA.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/practice/Traversals.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/practice/TreePaths.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/pramp/DecryptMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/pramp/ReverseSentense.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/pramp/SubStringWindow.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/pramp/WordCount.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/pramp/Yahoo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/recursion/DiceWays.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/recursion/FileDir.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/recursion/RecursionSpecial.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/recursion/meetup/HelloWorld.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/recursion/meetup/PrintFiles.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/specials/LRUCache.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/specials/LRUCacheMain.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/specials/LRUNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/specials/MyHashMap.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/specials/SerializeDeserializeTree.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/specials/TinyUrl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/specials/TriNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/specials/Trie.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/stack/MinStack.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/stack/MinStackDemo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/stack/NextGreaterElement.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/stack/SortStack.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/strings/ATOI.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/strings/Anagram.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/strings/CombinationStrings.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/strings/CountAndSay.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/strings/CountBinarySubStrings.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/strings/DecodeString.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/strings/DecodeWays.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/strings/GroupAnagrams.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/strings/GroupShiftedString.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/strings/GroupStrings.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/strings/IndexOfAnagramString.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/strings/IsAnagram.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/strings/Isomorphic.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/strings/LongestSubString.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/strings/MinWindow.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/strings/MoveSpacesToFront.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/strings/ReplaceWords.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/strings/ReverseStringII.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/strings/ReverseVowels.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/strings/ReverseWordsII.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/strings/RomanToInteger.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/strings/Rotation.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/strings/SimplifyPath.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/strings/StringCombinations.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/strings/ValidParenthesis.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/strings/ValidParenthesisII.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/strings/WordBreak.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/strings/WordPattern.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/strings/WordPatternII.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/strings/parenthesis/LongestValidParenthesis.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/tree/AddOneRow.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/tree/BTPaths.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/tree/BTRightSideView.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/tree/BTZigZag.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/tree/BalancedBinaryTree.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/tree/BinaryTreeTilt.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/tree/BottomLeft.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/tree/BuildTree$TreeNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/tree/BuildTree.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/tree/DeleteNodeBST.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/tree/GreaterTree.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/tree/KthFromLeafNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/tree/LCA.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/tree/LargestValueEachRow.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/tree/MaxPathSum.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/tree/Node.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/tree/SortedArrayBST.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/tree/StringFromBT.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/tree/SumLeftLeaf.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/tree/SumRootLeaf.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/tree/Traversals.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/tree/Tree.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/tree/TrimBST.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/tree/UnivaluePath.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CodeCode/yahoo/CombinationSumIV.class" afterPath="" />
     </list>
     <ignored path="CodeCode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -229,7 +227,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="468">
               <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-              <folding />
+              <folding>
+                <element signature="e#86#87#0" expanded="false" />
+                <element signature="e#116#117#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -249,7 +250,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="684">
               <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -287,8 +290,8 @@
       <file leaf-file-name="Traversals.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/tree/Traversals.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+            <state relative-caret-position="558">
+              <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -299,7 +302,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
               <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-              <folding />
+              <folding>
+                <element signature="e#100#101#0" expanded="false" />
+                <element signature="e#161#162#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -456,43 +462,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CodeCode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CodeCode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tree" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CodeCode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CodeCode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="specials" />
+              <option name="myItemId" value="out" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -994,7 +964,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="827" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1004,7 +974,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19861111" sideWeight="0.75949365" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19861111" sideWeight="0.75949365" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -2403,7 +2373,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="684">
           <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2427,7 +2399,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
           <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-          <folding />
+          <folding>
+            <element signature="e#86#87#0" expanded="false" />
+            <element signature="e#116#117#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2451,7 +2426,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="e#100#101#0" expanded="false" />
+            <element signature="e#161#162#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2465,8 +2443,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tree/Traversals.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+        <state relative-caret-position="558">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
           <folding />
         </state>
       </provider>
